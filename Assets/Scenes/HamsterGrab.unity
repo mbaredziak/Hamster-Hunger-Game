@@ -2038,8 +2038,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Game.MiniGames.HamsterGrab.HamsterGrabRound
   roundDuration: 45
   countdownTime: 3
-  allowNegativeScore: 0
+  allowNegativeScore: 1
   overtimeDuration: 10
+  maxOvertimes: 3
   resultScreenTime: 3
   startSpeed: 4
   endSpeed: 10
@@ -2069,6 +2070,8 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+  overtimeEndSpeed: 14
+  overtimeEndSpawnInterval: 0.3
   p1ScoreText: {fileID: 1173451670}
   p2ScoreText: {fileID: 324503818}
   timerText: {fileID: 534441856}
